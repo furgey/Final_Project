@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: #FFF;
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .active {
+    background-color: #0099FF;
+  }
+
+  .rectangle {
+    background: linear-gradient(90deg, rgb(241, 117, 0), 30%, rgb(45, 103, 175), 30%) ;
+    width: 100%;
+    height: 360px;
+  }
+
+  .rectangle2 {
+  width: 100%;
+  height: 100px;
+  background: rgb(45, 103, 175);
+  position: relative;
+  top: 260px;
+  left: 0px;
+  overflow: hidden;
+  }
+
+  .imgholder1 {
+    position: relative;
+    color: white;
+    background: #838383;
+    bottom: 50px;
+    height: 50px;
+    z-index: 1;
+    opacity: 0.8;
+  }
+
+  .test {
+    width: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-sizing: border-box;
+    float: left;
+
+  }
+  .test2 {
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+  }
+
+  .divtesting {
+    display:inline-block;
+    vertical-align: middle;
+  }
+
+.greytheme {
+  position:relative;
+  background-color: #838383;
+  color: white;
+}
+
+.greytheme2 {
+  background-color: #838383;
+  color: white;
+}
+
+.centered {
+  display:inline-block;
+  box-sizing: border-box;
+}
+
+/* Clear floats after image containers */
+.parent::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col {
+  float: left;
+  padding: 5px;
+}

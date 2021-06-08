@@ -1,0 +1,44 @@
+.navbar1 {
+  font-size: 200%
+}
+
+.smaller {
+  width: 200px;
+  height: auto;
+}
+.rightpadding1 {
+  position: relative;
+  left: 1%;
+  padding-right: 2%;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+.larger {
+  display: inline-block;
+  position:relative ;
+  font-size: 150%;
+}
+
+.img {
+  position: static;
+  padding-left: 12%;
+  height: 60px;
+  width: auto;
+  padding-right: 5%;
+}
+
+.Brand {
+  font-size: 200
+}
+
+.bigger {
+  font-size: 125%;
+}
+
+.size {
+  padding-right: 1%;
+}
